@@ -53,7 +53,7 @@ uint8_t add_work1 = 0;
 uint8_t add_work2 = 3;
 
 // finish work 
-add_work2 = add_work1 + 10;
+//add_work2 = add_work1 + 10;
 
 
 // branch dev_heo
@@ -2422,7 +2422,7 @@ uint8_t SCIC_Communication_Control(void)
 				CMD_Buff[0] = Com2_Data[Receive_Frame_HeaderOffset];
 				CMD_Buff[1] = Com2_Data[Receive_Frame_HeaderOffset + 1];
 
-				/* ÌÜµÏã† ÎîîÎ≤ÑÍπÖÏö© ÏΩîÎìú */
+				/* ?Üµ?ã† ?îîÎ≤ÑÍπÖ?ö© ÏΩîÎìú */
 				if ( Com_Change_Count > 10000 ) Com_Change_Count = 0;
 				else Com_Change_Count++;
 
@@ -2435,7 +2435,7 @@ uint8_t SCIC_Communication_Control(void)
 				// 	Register_Buff[151 + i] = IO_16Buff.all;
 				// 	}
 
-				/* ÌÜµÏã† ÎîîÎ≤ÑÍπÖÏö© ÏΩîÎìú */
+				/* ?Üµ?ã† ?îîÎ≤ÑÍπÖ?ö© ÏΩîÎìú */
 
 				// if( OPERATE_MODE == Manual_Operate){
 					if((CMD_Buff[0] == 'G') && (CMD_Buff[1] == 'Q')){
@@ -3865,11 +3865,11 @@ void Charge_Status_Check ( void )
 		}
 }
 
-/* ÏûêÎèô Î™®Îìú ÏùºÎïå Î∞∞ÌÑ∞Î¶¨Í∞Ä 40 ÎØ∏ÎßåÏúºÎ°ú 5Î∂Ñ ÎèôÏïà Ïú†ÏßÄÎê† Í≤ΩÏö∞ Ï†ÑÏõê OFF */
+/* ?ûê?èô Î™®Îìú ?ùº?ïå Î∞∞ÌÑ∞Î¶¨Í? 40 ÎØ∏Îßå?úºÎ°? 5Î∂? ?èô?ïà ?ú†Ïß??ê† Í≤ΩÏö∞ ?†Ñ?õê OFF */
 void Battery_Low_Check ( void )
 {
 	if ( OPERATE_MODE == Auto_Operate ){
-		if ( Battery_Low_Check_Count > 6000 ){   // 60Ï¥à 
+		if ( Battery_Low_Check_Count > 6000 ){   // 60Ï¥? 
 			Battery_Low_Check_Count = 0; 	
 			if ( BMS_Summary_Data.BAT_SOC.all < 40 ) Battery_Low_Error_Count++;
 			else Battery_Low_Error_Count = 0;
@@ -3879,11 +3879,11 @@ void Battery_Low_Check ( void )
 		}
 }
 
-/* ÏïåÎûåÏù¥ 60Î∂Ñ ÎèôÏïà Ïú†ÏßÄ Îê† Í≤ΩÏö∞ Ï†ÑÏõê OFF */
+/* ?ïå?ûå?ù¥ 60Î∂? ?èô?ïà ?ú†Ïß? ?ê† Í≤ΩÏö∞ ?†Ñ?õê OFF */
 void Alarm_Continue_Check ( void )
 {
 	if ( Error_Continue_Flag == 1 ) {
-		if ( Error_Continue_Count > 6000 ){	// 60Ï¥à
+		if ( Error_Continue_Count > 6000 ){	// 60Ï¥?
 			Error_Continue_Count = 0;
 
 			Error_1_min_Check_Count++;
@@ -4476,7 +4476,7 @@ void Right_Spin_Function(void)
 					
 					DELAY_MS(20);
 
-					if(DRV_Complete_Flag == 1)AGV_DRV_Complete_Event_Send(Old_JobID); 		// ?‚Ä∫¬ê√´¬≥? Old_JobID
+					if(DRV_Complete_Flag == 1)AGV_DRV_Complete_Event_Send(Old_JobID); 		// ??∫¬ê√´¬?? Old_JobID
 					else if ( Job_Cancel_Stop_Flag == 3 ){
 						Job_Status_Clear();
 						}
@@ -6333,7 +6333,6 @@ void BMS_Power_OFF (void)
   * @brief  The application entry point.
   * @retval int
   */
-
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -7353,7 +7352,7 @@ void Error_Handler(void)
   * @retval None
   */
 void assert_failed(uint8_t *file, uint32_t line)
-{
+{ 
   /* USER CODE BEGIN 6 */
 	/* User can add his own implementation to report the file name and line number,
 		 tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
