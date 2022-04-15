@@ -9,12 +9,10 @@ Git hub ....?
     
     
 - [**Sublime Merge**](https://www.sublimemerge.com/)  저장소 Clone
-
     https://www.youtube.com/watch?v=2Rb8gk0Nq7I
 
     
 
 - [**Sublime Merge**](https://www.sublimemerge.com/)  저장소 Clone 및 코드 병합
-
-​	    https://www.youtube.com/watch?v=8zZxwUMiwiw
+    https://www.youtube.com/watch?v=8zZxwUMiwiw
 
