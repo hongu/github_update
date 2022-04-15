@@ -729,9 +729,9 @@ extern void AGV_Stop_Function(void);
 #define Brake_Release_Err 	44
 #define Pallet_Detect_Err  	45
 
-#define Lift_Motor_ALR		46			// ë¦¬í”„íŠ¸ ì•ŒëŒ
-#define Lift_Timeout_Err 	47			// ë¦¬í”„íŠ¸ íƒ€ì„ ì•„ì›ƒ
-#define AGV_Chargine_Err 	48 			// ì¶©ì „ ì´ìƒ 
+#define Lift_Motor_ALR		46			// ë¦¬í”„?Š¸ ?•Œ?Œ
+#define Lift_Timeout_Err 	47			// ë¦¬í”„?Š¸ ???„ ?•„?›ƒ
+#define AGV_Chargine_Err 	48 			// ì¶©ì „ ?´?ƒ 
 
 #define Before_Spin      	1
 #define After_Spin        	2
