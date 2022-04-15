@@ -46,7 +46,16 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
+/***********************************************/
+// Dev Kim work start !!!!
 
+uint8_t kim1 = 0;
+
+// Work Finish !!!
+uint8_t finish = 0;
+
+
+/***********************************************/
 // Dev Heo Work
 // add dev_heo
 uint8_t dev_heo = 0;
