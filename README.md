@@ -15,7 +15,7 @@ Git hub ....?
 
     
 
-- [**Sublime Merge**](https://www.sublimemerge.com/)  저장소 Clone 및 코드 병합
+- [**Sublime Merge**](https://www.sublimemerge.com/)  저장소 Clone, 코드 수정 및 병합
     
     https://www.youtube.com/watch?v=8zZxwUMiwiw
 
