@@ -51,6 +51,9 @@
 // add dev_heo
 uint8_t dev_heo = 0;
 
+// Dev heo Work finish
+// Work end lol~
+
 // branch dev_heo
 uint8_t FIRMWARE_VERSION[5]	= {"v6.30"};
 
