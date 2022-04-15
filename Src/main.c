@@ -47,14 +47,9 @@
 /* USER CODE BEGIN PTD */
 
 
-// add work test 
-
-uint8_t add_work1 = 0;
-uint8_t add_work2 = 3;
-
-// finish work 
-//add_work2 = add_work1 + 10;
-
+// Dev Heo Work
+// add dev_heo
+uint8_t dev_heo = 0;
 
 // branch dev_heo
 uint8_t FIRMWARE_VERSION[5]	= {"v6.30"};
